@@ -1,0 +1,5 @@
+ML-Powered AI Agent for Diabetes Risk Prediction
+Developed an innovative system that integrates a traditional Machine Learning (ML) model with an AI Agent (Crew AI and LLM) to deliver comprehensive, actionable health insights beyond standard binary predictions.
+Core Architecture: Built a two-stage pipeline where a Random Forest Classifier was trained on patient data to serve as a high-precision prediction tool, which was then consumed by a custom Crew AI Agent.
+Intelligent Output: The AI Agent processed the ML model's raw probability output to generate structured, personalized outputs, including a clear diagnosis, detailed reasoning based on specific patient metrics (e.g., glucose, BMI), and actionable health recommendations.
+Technology Stack: Implemented the solution using Python, scikit-learn, and the Crew AI framework, with the front end built using Streamlit for a user-friendly, interactive interface. Utilized Pydantic to enforce a standardized, reliable output structure from the LLM, ensuring data consistency and quality.
